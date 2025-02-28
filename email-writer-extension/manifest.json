@@ -13,6 +13,12 @@
       "run_at": "document_end"
     }
   ],
+  "web_accessible_resources": [
+    {
+      "resources": [ "icons/*" ],
+      "matches": [ "*://mail.google.com/*" ]
+    }
+  ],
   "action": {
     "default_title": "Email Reply Generator"
   }
